@@ -1,0 +1,35 @@
+# build outputs
+target/
+build/
+dist/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+
+# logs and temp
+*.log
+logs/
+tmp/
+temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# misc
+*.class
+*.jar
+*.war
+*.swp
+*~

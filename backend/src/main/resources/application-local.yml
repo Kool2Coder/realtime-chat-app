@@ -1,0 +1,7 @@
+# Use this profile when running without Redis (e.g. mvn spring-boot:run -Dspring-boot.run.profiles=local)
+# Requires: spring.autoconfigure.exclude in main application or @SpringBootApplication(exclude=...)
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration

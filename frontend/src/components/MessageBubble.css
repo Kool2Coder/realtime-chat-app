@@ -1,0 +1,44 @@
+.message-bubble {
+  max-width: 75%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  margin-bottom: 8px;
+  margin-left: 0;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.message-bubble.own {
+  margin-left: auto;
+  margin-right: 0;
+  background: linear-gradient(135deg, #4a9eff, #357abd);
+  border: none;
+}
+
+.message-bubble.typing {
+  background: rgba(255, 255, 255, 0.05);
+  font-style: italic;
+}
+
+.sender-name {
+  display: block;
+  font-size: 0.75rem;
+  color: #4a9eff;
+  margin-bottom: 4px;
+}
+
+.message-content {
+  word-break: break-word;
+}
+
+.message-time {
+  display: block;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 4px;
+}
+
+.typing-indicator {
+  color: rgba(255, 255, 255, 0.7);
+}

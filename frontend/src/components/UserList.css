@@ -1,0 +1,48 @@
+.user-list {
+  background: rgba(255, 255, 255, 0.03);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  min-width: 200px;
+}
+
+.user-list h3 {
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.user-list ul {
+  list-style: none;
+}
+
+.user-list li {
+  padding: 0.5rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  padding: 8px 12px;
+  transition: background 0.2s;
+}
+
+.user-list li:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.user-list li.selected {
+  background: rgba(74, 158, 255, 0.2);
+}
+
+.user-dot {
+  width: 8px;
+  height: 8px;
+  background: #4ade80;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.no-users {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
